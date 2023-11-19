@@ -1,0 +1,34 @@
+C:\Users\Brandon\Desktop\Nueva carpeta\Control de motor\Fraccionamiento\obj\Debug\Control de motor.vbproj.AssemblyReference.cache
+C:\Users\Brandon\Desktop\Nueva carpeta\Control de motor\Fraccionamiento\obj\Debug\Control de motor.vbproj.GenerateResource.cache
+C:\Users\Brandon\Desktop\Nueva carpeta\Control de motor\Fraccionamiento\obj\Debug\Control de motor.vbproj.CoreCompileInputs.cache
+C:\Users\Brandon\Desktop\Nueva carpeta\Control de motor\Fraccionamiento\bin\Debug\Control de motor.exe.config
+C:\Users\Brandon\Desktop\Nueva carpeta\Control de motor\Fraccionamiento\bin\Debug\Control de motor.exe
+C:\Users\Brandon\Desktop\Nueva carpeta\Control de motor\Fraccionamiento\bin\Debug\Control de motor.pdb
+C:\Users\Brandon\Desktop\Nueva carpeta\Control de motor\Fraccionamiento\bin\Debug\Control de motor.xml
+C:\Users\Brandon\Desktop\Nueva carpeta\Control de motor\Fraccionamiento\bin\Debug\Oracle.DataAccess.dll
+C:\Users\Brandon\Desktop\Nueva carpeta\Control de motor\Fraccionamiento\obj\Debug\ControlMotor.FrmInicio.resources
+C:\Users\Brandon\Desktop\Nueva carpeta\Control de motor\Fraccionamiento\obj\Debug\ControlMotor.Resources.resources
+C:\Users\Brandon\Desktop\Nueva carpeta\Control de motor\Fraccionamiento\obj\Debug\Control de motor.vbproj.CopyComplete
+C:\Users\Brandon\Desktop\Nueva carpeta\Control de motor\Fraccionamiento\obj\Debug\Control de motor.exe
+C:\Users\Brandon\Desktop\Nueva carpeta\Control de motor\Fraccionamiento\obj\Debug\Control de motor.xml
+C:\Users\Brandon\Desktop\Nueva carpeta\Control de motor\Fraccionamiento\obj\Debug\Control de motor.pdb
+C:\Users\Brandon\Desktop\Nueva carpeta\Control de motor\Fraccionamiento\obj\Debug\ControlMotor.FrmMenuPrincipal.resources
+D:\OneDrive - Tecnologico Nacional de Mexico Campus Saltillo\TecNM - Campus Saltillo\7mo Semestre\Sistemas Programables\Control de motor\Fraccionamiento\bin\Debug\Control de motor.exe.config
+D:\OneDrive - Tecnologico Nacional de Mexico Campus Saltillo\TecNM - Campus Saltillo\7mo Semestre\Sistemas Programables\Control de motor\Fraccionamiento\bin\Debug\Control de motor.exe
+D:\OneDrive - Tecnologico Nacional de Mexico Campus Saltillo\TecNM - Campus Saltillo\7mo Semestre\Sistemas Programables\Control de motor\Fraccionamiento\bin\Debug\Control de motor.pdb
+D:\OneDrive - Tecnologico Nacional de Mexico Campus Saltillo\TecNM - Campus Saltillo\7mo Semestre\Sistemas Programables\Control de motor\Fraccionamiento\bin\Debug\Control de motor.xml
+D:\OneDrive - Tecnologico Nacional de Mexico Campus Saltillo\TecNM - Campus Saltillo\7mo Semestre\Sistemas Programables\Control de motor\Fraccionamiento\bin\Debug\Oracle.DataAccess.dll
+D:\OneDrive - Tecnologico Nacional de Mexico Campus Saltillo\TecNM - Campus Saltillo\7mo Semestre\Sistemas Programables\Control de motor\Fraccionamiento\obj\Debug\ControlMotor.FrmInicio.resources
+D:\OneDrive - Tecnologico Nacional de Mexico Campus Saltillo\TecNM - Campus Saltillo\7mo Semestre\Sistemas Programables\Control de motor\Fraccionamiento\obj\Debug\ControlMotor.FrmMenuPrincipal.resources
+D:\OneDrive - Tecnologico Nacional de Mexico Campus Saltillo\TecNM - Campus Saltillo\7mo Semestre\Sistemas Programables\Control de motor\Fraccionamiento\obj\Debug\ControlMotor.Resources.resources
+D:\OneDrive - Tecnologico Nacional de Mexico Campus Saltillo\TecNM - Campus Saltillo\7mo Semestre\Sistemas Programables\Control de motor\Fraccionamiento\obj\Debug\Control de motor.vbproj.GenerateResource.cache
+D:\OneDrive - Tecnologico Nacional de Mexico Campus Saltillo\TecNM - Campus Saltillo\7mo Semestre\Sistemas Programables\Control de motor\Fraccionamiento\obj\Debug\Control de motor.vbproj.CoreCompileInputs.cache
+D:\OneDrive - Tecnologico Nacional de Mexico Campus Saltillo\TecNM - Campus Saltillo\7mo Semestre\Sistemas Programables\Control de motor\Fraccionamiento\obj\Debug\Control de motor.vbproj.CopyComplete
+D:\OneDrive - Tecnologico Nacional de Mexico Campus Saltillo\TecNM - Campus Saltillo\7mo Semestre\Sistemas Programables\Control de motor\Fraccionamiento\obj\Debug\Control de motor.exe
+D:\OneDrive - Tecnologico Nacional de Mexico Campus Saltillo\TecNM - Campus Saltillo\7mo Semestre\Sistemas Programables\Control de motor\Fraccionamiento\obj\Debug\Control de motor.xml
+D:\OneDrive - Tecnologico Nacional de Mexico Campus Saltillo\TecNM - Campus Saltillo\7mo Semestre\Sistemas Programables\Control de motor\Fraccionamiento\obj\Debug\Control de motor.pdb
+D:\OneDrive - Tecnologico Nacional de Mexico Campus Saltillo\TecNM - Campus Saltillo\7mo Semestre\Sistemas Programables\Control de motor\Fraccionamiento\bin\Debug\Control de motor.exe.manifest
+D:\OneDrive - Tecnologico Nacional de Mexico Campus Saltillo\TecNM - Campus Saltillo\7mo Semestre\Sistemas Programables\Control de motor\Fraccionamiento\bin\Debug\Control de motor.application
+D:\OneDrive - Tecnologico Nacional de Mexico Campus Saltillo\TecNM - Campus Saltillo\7mo Semestre\Sistemas Programables\Control de motor\Fraccionamiento\obj\Debug\Control de motor.exe.manifest
+D:\OneDrive - Tecnologico Nacional de Mexico Campus Saltillo\TecNM - Campus Saltillo\7mo Semestre\Sistemas Programables\Control de motor\Fraccionamiento\obj\Debug\Control de motor.application
+D:\OneDrive - Tecnologico Nacional de Mexico Campus Saltillo\TecNM - Campus Saltillo\7mo Semestre\Sistemas Programables\Control de motor\Fraccionamiento\obj\Debug\Control de motor.vbproj.AssemblyReference.cache
