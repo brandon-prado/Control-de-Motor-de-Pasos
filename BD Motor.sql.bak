@@ -1,0 +1,68 @@
+CONNECT system/admin
+CREATE USER motor IDENTIFIED BY motor;
+GRANT connect, resource TO motor;
+GRANT create session, create table, create view, create trigger, create procedure TO motor;
+CONNECT motor/motor
+
+CREATE TABLE Ejecucion (
+  id_ejecucion NUMERIC(10) NOT NULL,
+  paso_realizado VARCHAR(30) NOT NULL,
+  fecha_hora_inicio DATE NOT NULL,
+  fecha_hora_termino DATE NULL,
+  CONSTRAINT pk_Ej_idEjecucion PRIMARY KEY (id_ejecucion),
+  CONSTRAINT ck_Ej_fechaHoraIT CHECK(fecha_hora_termino > fecha_hora_inicio)
+);
+
+
+--SECUENCIA PARA GENERAR ID EN LA TABLA Ejecucion
+CREATE SEQUENCE SecuenciaEjecucion_ID
+START WITH 1
+INCREMENT BY 1  
+ORDER;
+
+-- CREACION DE TRIGGER DE TABLA DE Ejecucion
+CREATE OR REPLACE TRIGGER Ejecucion_Autoincrementa
+BEFORE INSERT ON Ejecucion
+FOR EACH ROW
+BEGIN
+  SELECT SecuenciaEjecucion_ID.NEXTVAL INTO :NEW.id_ejecucion FROM DUAL;
+END;
+/
+
+--PROCEDIMIENTOS ALMACENADOS DE ENTRADA
+
+------INSERT-----
+--INSERT TABLA Ejecucion
+CREATE OR REPLACE PROCEDURE Ejecucion_Insertar (paso_realizadoD IN VARCHAR, fecha_hora_inicioD IN DATE)
+	AS
+	BEGIN
+		INSERT INTO Ejecucion (paso_realizado, fecha_hora_inicio)
+		VALUES (paso_realizadoD, fecha_hora_inicioD);
+	END;
+/
+
+------UPDATE-----
+--UPDATE TABLA Ejecucion
+CREATE OR REPLACE PROCEDURE Ejecucion_Actualizar (id_ejecucionD IN NUMERIC, fecha_hora_terminoD IN DATE)
+	AS
+	BEGIN
+		UPDATE Ejecucion SET fecha_hora_termino = fecha_hora_terminoD
+		WHERE id_ejecucion = id_ejecucionD;
+	END;
+/
+
+------DELETE-----
+--DELETE TABLA Ejecucion
+CREATE OR REPLACE PROCEDURE Ejecucion_Eliminar (id_ejecucionD IN NUMERIC)
+	AS
+	BEGIN
+		DELETE Ejecucion WHERE id_ejecucion = id_ejecucionD;
+	END;
+/
+
+--VISTAS
+
+--VISTA DE Ejecucion
+CREATE OR REPLACE VIEW Vista_Todas_Ejecuciones AS 
+SELECT id_ejecucion As ID, paso_realizado As "PASO REALIZADO", TO_CHAR(fecha_hora_inicio, 'DD/MON/YY HH24:MI:SS') As "FECHA/HORA EJECUCIÓN", TO_CHAR(fecha_hora_termino, 'DD/MON/YY HH24:MI:SS') As "FECHA/HORA TÉRMINO" 
+FROM Ejecucion ORDER BY fecha_hora_inicio DESC; 
